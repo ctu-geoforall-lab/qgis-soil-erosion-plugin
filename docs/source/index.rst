@@ -13,11 +13,11 @@ a vektorová vrstva obsahující výsledné hodnoty průměrné
 dlouhodobé ztráty půdy pro definované erozně uzavřené celky.
 
 `Zásuvný modul
-<https://github.com/ctu-geoforall-lab-projects/bp-novotny-2017>`_
+<https://github.com/ctu-geoforall-lab/qgis-soil-erosion-plugin>`_
 je pod licencí GNU/GPL.
 
 Případné chyby a nápady na vylepšení zásuvného modulu prosím pište na `stránku
-<https://github.com/ctu-geoforall-lab-projects/bp-novotny-2017/issues>`_.
+<https://github.com/ctu-geoforall-lab/qgis-soil-erosion-plugin/issues>`_.
 
 Obsah:
 

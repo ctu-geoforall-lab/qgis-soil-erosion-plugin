@@ -3,7 +3,6 @@
 import os
 import sys
 
-sys.path.insert(0, r'C:\Users\sanko\Documents\GitHub\bp-novotny-2017')
 from pyerosion import erosionusle
 
 reload(erosionusle)

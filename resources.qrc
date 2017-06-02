@@ -1,5 +1,0 @@
-<RCC>
-    <qresource prefix="/plugins/SoilErosion" >
-        <file>icon.png</file>
-    </qresource>
-</RCC>

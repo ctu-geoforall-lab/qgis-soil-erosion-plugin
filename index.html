@@ -1,0 +1,240 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Zásuvný modul Soil Erosion pro QGIS &mdash; Soil Erosion QGIS Plugin 0.1 documentation</title>
+  
+
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  
+        <link rel="index" title="Index"
+              href="genindex.html"/>
+        <link rel="search" title="Search" href="search.html"/>
+    <link rel="top" title="Soil Erosion QGIS Plugin 0.1 documentation" href="#"/>
+        <link rel="next" title="Instalace" href="instalace.html"/> 
+
+  
+  <script src="_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="#" class="icon icon-home"> Soil Erosion QGIS Plugin
+          
+
+          
+            
+            <img src="_static/icon.png" class="logo" />
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                0.1
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+                <ul>
+<li class="toctree-l1"><a class="reference internal" href="instalace.html">Instalace</a></li>
+<li class="toctree-l1"><a class="reference internal" href="navod.html">Návod k použití</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ukazkovy_vypocet.html">Ukázkový výpočet</a></li>
+<li class="toctree-l1"><a class="reference internal" href="autori.html">Autoři</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="#">Soil Erosion QGIS Plugin</a>
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+ 
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="#">Docs</a> &raquo;</li>
+      
+    <li>Zásuvný modul Soil Erosion pro QGIS</li>
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="_sources/index.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="zasuvny-modul-soil-erosion-pro-qgis">
+<h1>Zásuvný modul Soil Erosion pro QGIS<a class="headerlink" href="#zasuvny-modul-soil-erosion-pro-qgis" title="Permalink to this headline">¶</a></h1>
+<p>Soil Erosion Plugin slouží pro výpočet
+a prezentaci erozního smyvu na orné půdě.</p>
+<p>Vstupem jsou vektorové vrstvy <a class="reference external" href="http://www.spucr.cz/bpej/celostatni-databaze-bpej">Bonitovaných půdně ekologických jednotek (BPEJ)</a>, <a class="reference external" href="http://eagri.cz/public/app/eagriapp/lpisdata/">Registru půd (LPIS)</a> a rastrová vrstva digitálního modelu terénu.</p>
+<p>Výstupem je rastrová vrstva znázorňující lokální hodnotu smyvu
+a vektorová vrstva obsahující výsledné hodnoty průměrné
+dlouhodobé ztráty půdy pro definované erozně uzavřené celky.</p>
+<p><a class="reference external" href="https://github.com/ctu-geoforall-lab-projects/bp-novotny-2017">Zásuvný modul</a>
+je pod licencí GNU/GPL.</p>
+<p>Případné chyby a nápady na vylepšení zásuvného modulu prosím pište na <a class="reference external" href="https://github.com/ctu-geoforall-lab-projects/bp-novotny-2017/issues">stránku</a>.</p>
+<p>Obsah:</p>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="instalace.html">Instalace</a></li>
+<li class="toctree-l1"><a class="reference internal" href="navod.html">Návod k použití</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="navod.html#euc">EUC</a></li>
+<li class="toctree-l2"><a class="reference internal" href="navod.html#l-s">L,S</a></li>
+<li class="toctree-l2"><a class="reference internal" href="navod.html#k">K</a></li>
+<li class="toctree-l2"><a class="reference internal" href="navod.html#c">C</a></li>
+<li class="toctree-l2"><a class="reference internal" href="navod.html#r-p">R,P</a></li>
+<li class="toctree-l2"><a class="reference internal" href="navod.html#vypocet-erozniho-modelu">Výpočet erozního modelu</a></li>
+<li class="toctree-l2"><a class="reference internal" href="navod.html#erozni-model">Erozní model</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="ukazkovy_vypocet.html">Ukázkový výpočet</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="ukazkovy_vypocet.html#vzorova-data">Vzorová data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ukazkovy_vypocet.html#nastaveni-vstupu-a-vypocet">Nastavení vstupů a výpočet</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ukazkovy_vypocet.html#vysledny-model">Výsledný model</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="autori.html">Autoři</a></li>
+</ul>
+</div>
+</div>
+
+
+           </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="instalace.html" class="btn btn-neutral float-right" title="Instalace" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2017, Radek Novotny (CTU GeoForAll Lab).
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'./',
+            VERSION:'0.1',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true
+        };
+    </script>
+      <script type="text/javascript" src="_static/jquery.js"></script>
+      <script type="text/javascript" src="_static/underscore.js"></script>
+      <script type="text/javascript" src="_static/doctools.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>

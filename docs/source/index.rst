@@ -19,6 +19,11 @@ je pod licencí GNU/GPL.
 Případné chyby a nápady na vylepšení zásuvného modulu prosím pište na `stránku
 <https://github.com/ctu-geoforall-lab/qgis-soil-erosion-plugin/issues>`_.
 
+.. note:: Vývoj pluginu původně započal v rámci bakalářské práce
+          "Zásuvný modul QGIS pro výpočet erozního smyvu na orné půdě"
+          (`PDF
+          <https://github.com/ctu-geoforall-lab-projects/bp-novotny-2017/raw/master/text/radek-novotny-bp-2017.pdf>`__).
+   
 Obsah:
 
 .. toctree::
